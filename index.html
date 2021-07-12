@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Youtube Clone</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <script src="https://kit.fontawesome.com/2376f34da1.js" crossorigin="anonymous"></script>
+    <script src="main.js" defer></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="logo">
+            <i class="fab fa-youtube"></i>
+            <span class="title">YouTube</span>
+        </div>
+        <div class="icons">
+            <i class="fas fa-search"></i>
+            <i class="fas fa-ellipsis-v"></i>
+        </div>
+    </header>
+
+    <!-- Video Player -->
+    <section class="player">
+        <video controls src="videoplayback.mp4"></video>
+    </section>
+
+    <div class="infoAndUpNext">
+            <!-- Video Info -->
+        <section class="info">
+            <!-- Metadata -->
+            <div class="metadata">
+                <ul class="hastags">
+                    <li>#Travis Scott</li>
+                    <li>#Highest In The Room</li>
+                    <li>#Music video</li>
+                </ul>
+                <div class="titleAndButton">
+                    <span class="title clamp">HIGEST IN THE ROOM - TRAVIS SCOTT HIGEST IN THE ROOM - TRAVIS SCOTT HIGEST IN THE ROOM - TRAVIS SCOTT HIGEST IN THE ROOM - TRAVIS SCOTT HIGEST IN THE ROOM - TRAVIS SCOTT HIGEST IN THE ROOM - TRAVIS SCOTT</span>
+                    <button class="morebutton">
+                        <i class="fas fa-caret-down"></i>
+                    </button>
+                </div>
+                <span class="views">1,000,000 views</span>
+            </div>
+            <!-- Actions -->
+            <div class="actions">
+                <li>
+                    <button><i class="active fas fa-thumbs-up"></i><span>1K</span></button>
+                </li>
+                <li>
+                    <button><i class="fas fa-thumbs-down"></i><span>66</span></button>
+                </li>
+                <li>
+                    <button><i class="fas fa-share"></i><span>Share</span></button>
+                </li>
+                <li>
+                    <button><i class="far fa-plus-square"></i><span>Save</span></button>
+                </li>
+                <li>
+                    <button><i class="fas fa-flag"></i><span>Report</span></button>
+                </li>
+            </div>
+            <!-- Channel -->
+            <div class="channel">
+                <div class="metadata">
+                    <img src="scott.jpg" alt="">
+                    <div class="info">
+                        <span class="name">Travis made by Sang Gi</span>
+                        <span class="subscribers">100 subscribers</span>
+                    </div>
+                </div>
+                <button class="subscribe">subscribe</button>
+            </div>
+        </section>
+        <!-- Up Next -->
+        <section class="UpNext">
+            <span class="title">Up Next</span>
+            <ul>
+                <li class="item">
+                    <div class="imgbox"><img src="1.jpg" alt=""></div>
+                    <div class="info">
+                        <span class="title">ASTROWORLD</span>
+                        <span class="name">TRAVIS SCOTT</span>
+                        <span class="views">1M views</span>
+                    </div>
+                    <button class="more"><i class="fas fa-ellipsis-v"></i></button>
+                </li>
+                <li class="item">
+                    <div class="imgbox"><img src="2.jpg" alt=""></div>
+                    <div class="info">
+                        <span class="title">HEARTLESS</span>
+                        <span class="name">THE WEEKND</span>
+                        <span class="views">5M views</span>
+                    </div>
+                    <button class="more"><i class="fas fa-ellipsis-v"></i></button>
+                </li>
+                <li class="item">
+                    <div class="imgbox"><img src="3.jpg" alt=""></div>
+                    <div class="info">
+                        <span class="title">BLOND</span>
+                        <span class="name">FRANK OCEAN</span>
+                        <span class="views">0.5M views</span>
+                    </div>
+                    <button class="more"><i class="fas fa-ellipsis-v"></i></button>
+                </li>
+            </ul>
+        </section>
+    </div>
+</body>
+</html>
